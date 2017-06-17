@@ -1,17 +1,51 @@
-h1 {
-    font-size: 2.5rem;
-    font-weight: 600;
-    text-align: center;
-}
-
 ul {
     list-style: none;
     margin: 0;
     padding: 0;
 }
 
-.price-list-item {
+.page-title {
+    font-size: 5rem;
+    margin: 3rem 0;
+}
+
+.page-subtitle {
+    font-size: 2rem;
+}
+
+.page-subtitle > i {
+    font-size: 3rem;
+}
+
+.fancy-font {
+    font-family: 'Great Vibes', cursive;
+}
+
+.page-subtitle > img {
+    max-height: 72px;
+}
+
+.flex-row {
     display: flex;
-    justify-content: space-between;
     flex-flow: row;
+}
+
+.space-between {
+    justify-content: space-between;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.scissors-1, .scissors-2 {
+    transform: rotate(90deg);
+}
+
+.price-disclaimer {
+    font-size: 1rem;
+}
+
+footer {
+    margin-top: 40px;
 }
