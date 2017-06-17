@@ -4,9 +4,13 @@ ul {
     padding: 0;
 }
 
+section {
+    margin-bottom: 16px;
+}
+
 .page-title {
     font-size: 5rem;
-    margin: 3rem 0;
+    margin: 3rem 0 3rem 0;
 }
 
 .page-subtitle {
@@ -25,6 +29,11 @@ ul {
     max-height: 72px;
 }
 
+.phone-number {
+    margin-top: 12px;
+    font-size: 1.2em;
+}
+
 .flex-row {
     display: flex;
     flex-flow: row;
@@ -37,9 +46,8 @@ ul {
 .text-center {
     text-align: center;
 }
-
-.scissors-1, .scissors-2 {
-    transform: rotate(90deg);
+.scissors-2 {
+    transform: rotate(180deg);
 }
 
 .price-disclaimer {
