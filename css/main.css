@@ -50,6 +50,10 @@ section {
     transform: rotate(180deg);
 }
 
+.price {
+    white-space: nowrap;
+}
+
 .price-disclaimer {
     font-size: 1rem;
 }
