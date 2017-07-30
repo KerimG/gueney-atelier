@@ -8,6 +8,14 @@ section {
     margin-bottom: 16px;
 }
 
+.red {
+    color: red;
+}
+
+.bold {
+    font-weight: 600;
+}
+
 .page-title {
     font-size: 5rem;
     margin: 3rem 0 3rem 0;
